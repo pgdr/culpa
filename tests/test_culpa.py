@@ -16,7 +16,7 @@ class TestCulpa(unittest.TestCase):
 
     def test_col_content(self):
         act = culpa.read_col(here('test.xlsx'), 'charlie')
-        exp = ['alpha', 'beta', 'delta', 'epsilon', 'eta', 'gamma', 'zeta']
+        exp = ['alpha', 'beta', 'gamma', 'delta', 'epsilon', 'zeta', 'eta']
         self.assertEqual(exp, act)
 
 if __name__ == '__main__':
