@@ -9,7 +9,7 @@ def _reqs():
 setup(
     name='culpa',
     packages=['culpa'],
-    version='0.0.3',
+    version='1.0.0',
     install_requires=_reqs(),
     entry_points={
         'console_scripts': ['culpa=culpa:main']
